@@ -8,7 +8,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="ceTe.DynamicPDF.Rasterizer.NET" Version="3.*" />
+    <Content Remove="C:\Users\James Brannan\.nuget\packages\cete.dynamicpdf.rasterizer.net\3.17.0\build\netstandard20\..\..\runtimes\win10-x64\native\DPDFRenderNative_x64.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ceTe.DynamicPDF.Rasterizer.NET" Version="3.17.0" />
   </ItemGroup>
 
 </Project>
