@@ -10,7 +10,7 @@ namespace rasterizer_dotnet_core
 
             for (int i = 0; i < rasterizer.Pages.Count; i++)
             {
-                rasterizer.Pages[i].Draw("Page" + i + "_DocumentA.png", ImageFormat.Png, ImageSize.Dpi72);
+                rasterizer.Pages[i].Draw("Page" + i + "DocumentA.png", ImageFormat.Png, ImageSize.Dpi72);
             }
         }
     }
