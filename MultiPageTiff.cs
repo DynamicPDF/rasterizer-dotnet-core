@@ -8,7 +8,7 @@ namespace rasterizer_dotnet_core
         {
             // Create a PdfRasterizer object
             PdfRasterizer rasterizer = new PdfRasterizer(Util.GetResourcePath("DocumentA.pdf"));
-
+            
             // Create a image size tha is a fixed size
             FixedImageSize fixedImageSize = new FixedImageSize(595, 841);
 
