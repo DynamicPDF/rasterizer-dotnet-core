@@ -10,7 +10,7 @@
   
 
   <ItemGroup>
-    <PackageReference Include="ceTe.DynamicPDF.Rasterizer.NET" Version="4.1.0" />
+    <PackageReference Include="ceTe.DynamicPDF.Rasterizer.NET" Version="4.4.0" />
   </ItemGroup>
 
 </Project>

@@ -24,6 +24,7 @@
             DitheringImage.Run();
             RgbaTransparency.Run();
             RgbaImageCustomNaming.Run();
+            PdfToImageRasterizerExample.Run();
         }
     }
 }
