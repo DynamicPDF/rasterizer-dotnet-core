@@ -8,6 +8,20 @@ namespace rasterizer_dotnet_csharp
         static void Main(string[] args)
         {
             PngImageExample.Run();
+            PdfPortfolio.Run();
+            MonochromeImage.Run();
+            PdfToImageRasterizerExample.Run();
+            MultiPageTiff.Run();
+            JpegImage.Run();
+            GifWithWebPalette.Run();
+            PngBackgroundImageWithColorWithTransparency.Run();
+            PngBackgroundImageWithRgbColor.Run();
+            PngRgbaTransparency.Run();
+            PngWindowsPalette.Run();
+            PngImageWithUserPalette.Run();
+            DitheringImage.Run();
+            CropImage.Run();
+            RasterizationEventHandling.Run();
         }
 
         public static string GetResourcePath(string inputFileName)

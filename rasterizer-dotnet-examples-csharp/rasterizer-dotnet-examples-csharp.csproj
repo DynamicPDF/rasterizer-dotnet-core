@@ -10,4 +10,8 @@
     <PackageReference Include="ceTe.DynamicPDF.Rasterizer.NET" Version="4.6.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="OutputFiles\" />
+  </ItemGroup>
+
 </Project>

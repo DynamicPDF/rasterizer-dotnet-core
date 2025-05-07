@@ -4,7 +4,18 @@ Imports System.Text.RegularExpressions
 
 Module Program
     Sub Main(args As String())
-        Console.WriteLine("Hello World!")
+        PdfPortfolio.Run()
+        MonochromeImage.Run()
+        PngImageExample.Run()
+        PdfToImageRasterizerExample.Run()
+        JpegImage.Run()
+        GifWithWebPalette.Run()
+        PngBackgroundImageWithRgbColor.Run()
+        PngBackgroundImageWithColorWithTransparency.Run()
+        PngImageWithUserPalette.Run()
+        DitheringImage.Run()
+        CropImage.Run()
+        RasterizationEventHandling.Run()
     End Sub
 
 

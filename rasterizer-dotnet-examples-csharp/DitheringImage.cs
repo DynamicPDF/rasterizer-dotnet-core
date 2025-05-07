@@ -1,21 +1,16 @@
 ﻿using ceTe.DynamicPDF.Rasterizer;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace rasterizer_dotnet_core
+namespace rasterizer_dotnet_csharp
 {
     class DitheringImage
     {
         internal static void Run()
         {
-            PdfRasterizer rasterizer = new PdfRasterizer(Util.GetResourcePath("pdf-with-transparency.pdf"));
+            PdfRasterizer rasterizer = new PdfRasterizer(Program.GetResourcePath("pdf-for-dithering.pdf"));
             AutoPalette autoPalette = new AutoPalette(QuantizationAlgorithm.Octree, 256);
             PngIndexedColorFormat pngIndexedColorFormat = new PngIndexedColorFormat(autoPalette, 100, DitheringAlgorithm.FloydSteinberg);
             PngImageFormat png = new PngImageFormat(pngIndexedColorFormat);
-            rasterizer.Draw("DitheringImage.png", png, ImageSize.Dpi72);
+            rasterizer.Draw(Program.GetOutputDocPath("ditheringImage-output.png"), png, ImageSize.Dpi72);
         }
     }
 }
