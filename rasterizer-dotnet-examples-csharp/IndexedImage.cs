@@ -1,13 +1,13 @@
 ﻿using ceTe.DynamicPDF.Rasterizer;
 
-namespace rasterizer_dotnet_core
+namespace rasterizer_dotnet_csharp
 {
     class IndexedImage
     {
         internal static void Run()
         {
             // Create a PdfRasterizer object
-            PdfRasterizer rasterizer = new PdfRasterizer(Util.GetResourcePath("DocumentA.pdf"));
+            PdfRasterizer rasterizer = new PdfRasterizer(Program.GetResourcePath("DocumentA.pdf"));
 
             // Create the GifImageFormat object.
             GifImageFormat gifImageFormat = new GifImageFormat();
@@ -22,7 +22,7 @@ namespace rasterizer_dotnet_core
             FixedImageSize fixedImageSize = new FixedImageSize(595, 841);
 
             // Save the image
-            rasterizer.Draw("IndexedImage.Gif", gifImageFormat, fixedImageSize);
+            rasterizer.Draw(Program.GetOutputDocPath("IndexedImage.Gif"), gifImageFormat, fixedImageSize);
         }
     }
 }
