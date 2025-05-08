@@ -1,6 +1,5 @@
 ﻿
 using ceTe.DynamicPDF.Rasterizer;
-using rasterizer_dotnet_csharp;
 
 namespace rasterizer_dotnet_csharp
 {
