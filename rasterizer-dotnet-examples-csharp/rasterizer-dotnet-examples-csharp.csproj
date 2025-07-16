@@ -7,11 +7,15 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="ceTe.DynamicPDF.Rasterizer.NET" Version="4.6.0" />
+    <None Remove="ceTeLicenseKeys.csl4" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="OutputFiles\" />
+    <EmbeddedResource Include="ceTeLicenseKeys.csl4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ceTe.DynamicPDF.Rasterizer.NET" Version="4.6.0" />
   </ItemGroup>
 
 </Project>
