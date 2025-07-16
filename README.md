@@ -22,8 +22,6 @@ Get started easily by installing DynamicPDF Rasterizer for .NET through NuGet or
 ### NuGet Package
 The easiest way to install DynamicPDF Rasterizer for .NET is by obtaining the NuGet package using Visual Studio's Package Manager. You can also obtain the NuGet package by downloading it directly. Refer to the [installation documentation](https://www.dynamicpdf.com/docs/dotnet/rasterizer-referencing-assembly-and-deployment "Referencing the Assembly and Deployment") for more information.
 
-{!nuget-button{packageid:"ceTe.DynamicPDF.Rasterizer.NET"}!}. 
-
 ### DynamicPDF Rasterizer Information
 DynamicPDF Rasterizer for .NET is a user-friendly .NET library that quickly converts PDF documents to images. With a free Evaluation Edition to try and with flexible and royalty-free licensing options, why not start using DynamicPDF Rasterizer for .NET today!
 
